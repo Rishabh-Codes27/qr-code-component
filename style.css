@@ -1,0 +1,67 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Light-gray);
+    font-family: "oufit",sans-serif;
+    font-size: 15px;
+    justify-content: center;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.card{
+    display: grid;
+    position: relative;
+    width: 21rem;
+    place-items: center;
+    background-color: var(--White);
+    border-radius: 1.65rem;
+}
+
+.text{
+    padding: 0 32px;
+    text-align: center;
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: solid;
+}
+
+.text p{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: var(--Grayish-blue);
+}
+
+.qr{
+    width: 90%;
+    margin: 16px;
+    border-radius: 0.65rem;
+}
+.attribution{
+    color: black;
+    position:relative;
+    padding-top: 400px
+}
+
